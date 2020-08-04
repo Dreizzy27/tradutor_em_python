@@ -1,11 +1,11 @@
-import tradutorpython
+import tradutorpython2
 import sys
 import googletrans
 from PyQt5 import QtCore, QtGui, QtWidgets
 from PyQt5.QtWidgets import QMessageBox
 
 
-class Main(QtWidgets.QMainWindow, tradutorpython.Ui_Dialog):
+class Main(QtWidgets.QMainWindow, tradutorpython2.Ui_Dialog):
     def __init__(self, parent=None):
         super(Main, self).__init__(parent)
 
